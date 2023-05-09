@@ -42,7 +42,7 @@ margin: 0 0 0 0;
 .web-name{
     font-size:x-large;
     font-weight: 900;
-    color: #A4EBF3;
+    color: #273ae4;
 }   
 .body-continer{
     display: flex;
@@ -85,3 +85,49 @@ margin: 0 0 0 0;
     text-align: center;
     margin-top: 5px;
 }
+
+
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 300px;
+    padding: 0 1rem;
+    color: #046091;
+    font-size: 15px;
+    border: 1px solid #00abbe;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+    text-align: center;
+
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #00abbe;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    
+  }
+  
+  .button--submit:hover {
+    background-color: #5dbacd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  

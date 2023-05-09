@@ -25,7 +25,7 @@ margin: 0 0 0 0;
     background-color: #6eccd6;
     border: 1px solid #A4EBF3;
     border-radius: 5px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 24px 10px 24px;
     box-shadow: 0px 6px 0px #A4EBF3;
     transition: all .1s;
     margin-right:30px;
@@ -42,22 +42,23 @@ margin: 0 0 0 0;
 .web-name{
     font-size:x-large;
     font-weight: 900;
-    color: #A4EBF3;
+    color: #2966d8;
 }   
 .body-continer{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     /* background-color:#f6f6f6; */
-   
+    height: 80%;
     margin: 0 0 0 0;
 }
 .igalary{
     
     width:450px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
@@ -65,7 +66,8 @@ margin: 0 0 0 0;
     background: #6eccd6;
     box-shadow:  5px 5px 10px #2c5256,
                  -5px -5px 10px #b0ffff;
-    margin: 50px 10px 0px 10px;             
+    margin: 50px 10px 100px 10px;     
+    padding-bottom: 30px;        
 
 }
 .text-img{
@@ -77,11 +79,17 @@ margin: 0 0 0 0;
 }
 .gal-img{
     border-radius: 17px;
+    
 }
 .cont-header{
     font-size:xx-large;
     font-weight: 900;
-    color: #00abbe;
+    color: #02b3c7;
     text-align: center;
     margin-top: 5px;
+}
+.button-container{
+    display: flex;  
+    width:50%;
+    justify-content: space-around;
 }
