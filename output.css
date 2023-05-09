@@ -21,7 +21,7 @@ margin: 0 0 0 0;
 
 .button {
     color: #ecf0f1;
-    font-size: 17px;
+    font-size: 25px;
     background-color: #6eccd6;
     border: 1px solid #A4EBF3;
     border-radius: 5px;
@@ -34,7 +34,8 @@ margin: 0 0 0 0;
 }
    
 .button:active {
-    box-shadow: 0px 2px 0px #74c3cc;
+    background-color: #AAAAAA;
+    box-shadow: 0px 2px 0px #8dcc74;
     position: relative;
     top: 2px;
 }
@@ -48,9 +49,10 @@ margin: 0 0 0 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+   
     align-items: center;
-    /* background-color:#f6f6f6; */
+
+    /* background-color:#800c0c; */
     height: 80%;
     margin: 0 0 0 0;
 }
@@ -90,6 +92,7 @@ margin: 0 0 0 0;
 }
 .button-container{
     display: flex;  
-    width:50%;
-    justify-content: space-around;
+    width:80%;
+    justify-content: space-evenly;
+    padding: 16px 24px 16px 24px;
 }
