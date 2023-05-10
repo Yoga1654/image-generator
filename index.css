@@ -51,8 +51,9 @@ margin: 0 0 0 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     /* background-color:#f6f6f6; */
+
     margin: 0 0 0 0;
 }
 .igalary{  
@@ -128,3 +129,9 @@ margin: 0 0 0 0;
     outline: none;
   }
   
+.content{
+    background-color: #00abbe;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+}
