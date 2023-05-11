@@ -82,39 +82,34 @@ margin: 0 0 0 0;
 .input-group {
     display: flex;
     align-items: center;
-    align-content: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px;
   }
   
   .input {
-    min-height: 55px;
-    max-width: 350px;
+    min-height: 50px;
+    max-width: 300px;
     padding: 0 1rem;
     color: #046091;
-    font-size: 25px;
+    font-size: 15px;
     border: 1px solid #00abbe;
-    border-radius: 6px 0 0 6px;
+    border-radius: 6px 6px 6px 6px;
     background-color: transparent;
     text-align: center;
-    /* align-items: center; */
-    /* margin-right: 0%; */
-    
-}
-  
-  .button--submit {
-    min-height: 50px;
 
-    padding: .6em 1em;
+  }
+  
+  
+.button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
     border: none;
-    border-radius: 0 6px 6px 0;
+    border-radius: 6px 6px 6px 6px;
     background-color: #00abbe;
-   
     color: #fff;
-    font-size: 22px;
+    font-size: 15px;
     cursor: pointer;
     transition: background-color .3s ease-in-out;
-    margin-left: 0%;
     
   }
   
