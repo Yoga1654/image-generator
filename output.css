@@ -5,16 +5,17 @@
 
 body{
 margin: 0 0 0 0;
+background-color: burlywood;
 }
 
 .container{
     display: flex;
-    background-color:#AAAAAA ;
+    background-color: antiquewhite ;
     flex-direction: row;
     align-content: right;
     margin: 0% 0% 0% 0%;
-    height: 80px;
-    justify-content:space-between;
+    height: 70px;
+    justify-content:center;
     align-items: center;
     
 }
@@ -49,11 +50,11 @@ margin: 0 0 0 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 20vh;
+    padding: 10vh;
     align-items: center;
 
     /* background-color:#800c0c; */
-    height: 80%;
+    height: 50%;
     margin: 0 0 0 0;
 }
 .igalary{
@@ -66,7 +67,7 @@ margin: 0 0 0 0;
     padding-top: 30px;
     border-radius: 17px;
     background: #9152d9;
-    box-shadow:  5px 5px 10px #2c5256,
+    box-shadow:  5px 5px 10px #9152d9,
                  -5px -5px 10px#9152d9;
     margin: 50px 10px 100px 30px;     
     padding-bottom: 30px;        
