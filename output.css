@@ -5,12 +5,12 @@
 
 body{
 margin: 0 0 0 0;
-background-color: burlywood;
+background-color:bisque;
 }
 
 .container{
     display: flex;
-    background-color: antiquewhite ;
+    background-color: rgb(223, 168, 96) ;
     flex-direction: row;
     align-content: right;
     margin: 0% 0% 0% 0%;
@@ -23,7 +23,7 @@ background-color: burlywood;
 .button {
     color: #ecf0f1;
     font-size: 25px;
-    background-color: #9152d9;;
+    background-color: hsl(268, 64%, 59%);;
     border: 1px #9152d9;;
     border-radius: 5px;
     padding: 10px 24px 10px 24px;
@@ -66,9 +66,9 @@ background-color: burlywood;
     align-items: center;
     padding-top: 30px;
     border-radius: 17px;
-    background: #9152d9;
-    box-shadow:  5px 5px 10px #9152d9,
-                 -5px -5px 10px#9152d9;
+    background:lightpink;
+    box-shadow:  5px 5px 10px cornsilk,
+                 -5px -5px 10px cornsilk;
     margin: 50px 10px 100px 30px;     
     padding-bottom: 30px;        
 
@@ -94,6 +94,6 @@ background-color: burlywood;
 .button-container{
     display: flex;  
     width:80%;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 16px 24px 16px 24px;
 }
