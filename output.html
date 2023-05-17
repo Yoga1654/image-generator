@@ -20,8 +20,9 @@
     <div class="body-continer">
        
     <div class="igalary">
-        <label for="myfile">Select a file:</label>
-        <input type="file" id="myfile" name="myfile" width="400vw" height="400vh" >
+      <input type="file" id="uploadInput" accept="image/*">
+      <br>
+      <img id="preview" alt="Preview">
         <label for="Des"></label></p>
         <textarea id="Des" name="Des" rows="5" cols="50">Description:</textarea>
         <input type="button" value="submit" class="button">
@@ -29,6 +30,26 @@
     <div class="button-container">
         <a type="button"  class="button" >Upload</a>
     </div>
+    <script>
+      function handleFileSelect(event) {
+        const file = event.target.files[0]; 
+        const reader = new FileReader(); 
+        
+        reader.onload = function(e) {
+          const previewImage = document.getElementById('preview');
+          previewImage.src = e.target.result;
+        };
+        
+        reader.readAsDataURL(file); 
+      }
+      const fileInput = document.getElementById('uploadInput');
+      fileInput.addEventListener('change', handleFileSelect, false);
+    </script>
+
+
+
+
+
 </div>
 </body>
 </html>
